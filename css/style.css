@@ -111,6 +111,22 @@ font-family: 'Montserrat', sans-serif;
 max-width: 100% !important;
 text-align: center;
 }
+/* Types section ========================================================================================================= */
+#types{
+grid-template-columns: 1fr 1fr;
+background: var(--accent-color);
+}
+#types img{
+display: block;
+width: 100%;
+}
+.types-text{
+padding: 0 80px;
+}
+.types-text p:first-of-type{
+text-transform: uppercase;
+margin-bottom: 35px;
+}
 /* Utility classes ========================================================================================================= */
 .container{
 width: 90%;
