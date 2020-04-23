@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+--primary-color: #fff;
+--secondary-color: #303030;
+--accent-color: #e8631c;
+}
+/* Utility classes ========================================================================================================= */
+.container{
+width: 90%;
+margin: 0 auto;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.align-center{
+align-items: center;
+}
+.grid-container{
+display: grid;
+}
+.text-xs{
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.text-sm{
+font-size: 16px;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+}
+.text-md{
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.text-lg{
+font-size: 40px;
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+}
+.text-xl{
+font-size: 50px;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+}
