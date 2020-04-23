@@ -127,9 +127,7 @@ padding: 0 80px;
 text-transform: uppercase;
 margin-bottom: 35px;
 }
-
-
-
+/* About section ========================================================================================================= */
 #about{
 background: url(../img/bg/bg-2.png);
 background-size: cover;
@@ -138,6 +136,26 @@ padding: 450px 0;
 }
 #about p{
 text-align: center;
+}
+/* Subscribe section ========================================================================================================= */
+#subscribe{
+background: var(--accent-color);
+padding: 120px 0;
+}
+.btn-subscribe{
+margin-top: 0px !important;
+border-radius: 0 !important;
+}
+#subscribe input{
+width: 500px;
+border: 0;
+outline: none;
+padding-left: 30px;
+font-size: 30px;
+}
+#subscribe input::placeholder{
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
 }
 /* Statistics section ========================================================================================================= */
 #statistics{
