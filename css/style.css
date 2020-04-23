@@ -56,7 +56,7 @@ padding: 100px 0;
 }
 .tour-wrap{
 grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 150px;
+grid-gap: 50px;
 }
 .tour-wrap>div{
 background: var(--secondary-color);
@@ -78,9 +78,46 @@ font-family: 'Montserrat', sans-serif;
 width: calc(100% - 100px);
 margin: 0 auto;
 }
+/* Pricing section ========================================================================================================= */
+#pricing{
+background: var(--secondary-color);
+padding: 100px 0;
+}
+.pricing-wrap{
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 80px;
+}
+.pricing-wrap>div{
+background: var(--accent-color);
+padding: 60px 20px 25px;
+border-radius: 10px;
+}
+.pricing-wrap img{
+margin: 0 auto;
+display: block;
+}
+.pricing-wrap p{
+text-align: center;
+}
+.pricing-wrap p:first-of-type{
+text-transform: uppercase;
+font-family: 'Oswald', sans-serif !important;
+margin: 30px 0;
+}
+.pricing-wrap p:last-of-type{
+font-family: 'Montserrat', sans-serif;
+}
+.btn-price{
+max-width: 100% !important;
+text-align: center;
+}
 /* Utility classes ========================================================================================================= */
 .container{
 width: 90%;
+margin: 0 auto;
+}
+.container-sm{
+width: 70%;
 margin: 0 auto;
 }
 .flex-container{
@@ -134,7 +171,7 @@ max-width: fit-content;
 font-family: 'Oswald', sans-serif !important;
 }
 .btn:hover{
-background: var(--accent-color);
+background: #000;
 }
 .section-headline{
 text-align: center;
