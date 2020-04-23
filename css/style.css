@@ -127,6 +127,19 @@ padding: 0 80px;
 text-transform: uppercase;
 margin-bottom: 35px;
 }
+/* Statistics section ========================================================================================================= */
+#statistics{
+background: var(--secondary-color);
+padding: 200px 0;
+}
+.statistics-wrap{
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 200px;
+}
+.statistics-wrap p{
+text-align: center;
+margin: 15px 0;
+}
 /* Utility classes ========================================================================================================= */
 .container{
 width: 90%;
