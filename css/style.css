@@ -14,9 +14,7 @@ color: var(--primary-color);
 /* Header ========================================================================================================= */
 #header{
 height: 100vh;
-background: url(../img/bg/bg-1.png);
-background-size: cover;
-background-position: center;
+background:url(../img/bg/bg-1.png) center/cover;
 }
 .nav{
 background: var(--secondary-color);
@@ -52,7 +50,7 @@ transition: 0.5s;
 }
 /* Tour section ========================================================================================================= */
 #tour{
-background: var(--accent-color);
+background:url(../img/bg/bg-2.png) center/cover;
 padding: 100px 0;
 }
 .tour-wrap{
@@ -81,7 +79,7 @@ margin: 0 auto;
 }
 /* Pricing section ========================================================================================================= */
 #pricing{
-background: var(--secondary-color);
+background:url(../img/bg/bg-3.png) center/cover;
 padding: 100px 0;
 }
 .pricing-wrap{
@@ -115,7 +113,6 @@ text-align: center;
 /* Types section ========================================================================================================= */
 #types{
 grid-template-columns: 1fr 1fr;
-background: var(--accent-color);
 }
 #types img{
 display: block;
@@ -128,11 +125,15 @@ padding: 0 80px;
 text-transform: uppercase;
 margin-bottom: 35px;
 }
+#types-right{
+background:url(../img/bg/bg-4.png) center/cover;
+}
+#types-left{
+background:url(../img/bg/bg-5.png) center/cover;
+}
 /* About section ========================================================================================================= */
 #about{
-background: url(../img/bg/bg-2.png);
-background-size: cover;
-background-position: center;
+background:url(../img/bg/bg-6.png) center/cover;
 padding: 450px 0;
 }
 #about p{
@@ -140,7 +141,9 @@ text-align: center;
 }
 /* Subscribe section ========================================================================================================= */
 #subscribe{
-background: var(--accent-color);
+background: url(../img/bg/bg-7.png);
+background-position: center;
+background-size: cover;;
 padding: 120px 0;
 }
 .btn-subscribe{
