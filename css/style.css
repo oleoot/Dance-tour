@@ -127,6 +127,18 @@ padding: 0 80px;
 text-transform: uppercase;
 margin-bottom: 35px;
 }
+
+
+
+#about{
+background: url(../img/bg/bg-2.png);
+background-size: cover;
+background-position: center;
+padding: 450px 0;
+}
+#about p{
+text-align: center;
+}
 /* Statistics section ========================================================================================================= */
 #statistics{
 background: var(--secondary-color);
