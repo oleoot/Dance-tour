@@ -8,7 +8,7 @@ box-sizing: border-box;
 --secondary-color: #303030;
 --accent-color: #e8631c;
 }
-h1,p,a{
+h1,h2,p,a{
 color: var(--primary-color);
 }
 /* Header ========================================================================================================= */
@@ -49,6 +49,35 @@ background: var(--accent-color);
 background: var(--secondary-color);
 transition: 0.5s;
 }
+/* Tour section ========================================================================================================= */
+#tour{
+background: var(--accent-color);
+padding: 100px 0;
+}
+.tour-wrap{
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 150px;
+}
+.tour-wrap>div{
+background: var(--secondary-color);
+padding-bottom: 50px;
+}
+.tour-wrap img{
+width: 100%;
+}
+.tour-wrap p{
+ text-align: center;
+}
+.tour-wrap p:first-of-type{
+text-transform: uppercase;
+margin: 35px 0 20px;
+font-family: 'Oswald', sans-serif !important;
+}
+.tour-wrap p:last-of-type{
+font-family: 'Montserrat', sans-serif;
+width: calc(100% - 100px);
+margin: 0 auto;
+}
 /* Utility classes ========================================================================================================= */
 .container{
 width: 90%;
@@ -84,7 +113,7 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 }
 .text-lg{
-font-size: 40px;
+font-size: 80px;
 font-family: 'Oswald', sans-serif;
 font-weight: 700;
 }
@@ -106,4 +135,14 @@ font-family: 'Oswald', sans-serif !important;
 }
 .btn:hover{
 background: var(--accent-color);
+}
+.section-headline{
+text-align: center;
+text-transform: uppercase;
+}
+.section-description{
+text-align: center;
+margin: 60px auto;
+width: 60%;
+min-width: 800px;
 }
