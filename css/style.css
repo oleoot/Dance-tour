@@ -33,6 +33,7 @@ list-style-type: none;
  margin: 0 35px;
  text-decoration: none;
  font-family: 'Oswald', sans-serif !important;
+ -webkit-transition: 0.5s;
 }
 #search{
 float: right;
@@ -205,6 +206,7 @@ margin-bottom: 20px;
 .footer-wrap ul li a{
 text-decoration: none;
 font-family: 'Montserrat', sans-serif !important;
+-webkit-transition: 0.5s;
 }
 /* Utility classes ========================================================================================================= */
 .container{
@@ -279,4 +281,8 @@ text-align: center;
 margin: 60px auto;
 width: 60%;
 min-width: 800px;
+}
+.nav a:hover, .footer-wrap a:hover{
+color: var(--accent-color);
+transition: 0.5s;
 }
