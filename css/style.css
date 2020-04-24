@@ -367,6 +367,16 @@ grid-gap: 20px;
 }
 }
 @media screen and (max-width: 768px){
+#tour{
+background:url(../img/bg/bg-2-sm.png);
+}
+#pricing{
+background:url(../img/bg/bg-3-sm.png);
+ba
+}
+#subscribe{
+background:url(../img/bg/bg-7-sm.png);
+}
 .text-xl{
 font-size: 100px;
 }
